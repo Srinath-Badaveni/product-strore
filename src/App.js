@@ -102,3 +102,12 @@ const App = () => {
 };
 
 export default App;
+
+
+
+// Limitations:
+// 1. Search functionality currently filters through all products at once after fetching, which could impact performance with a larger dataset.
+// 2. Pagination is implemented with a fixed size of 10 but does not have UI pagination controls.
+// 3. If there are too many products, loading them in batches could be slow without a loading indicator for each batch.
+// 4. No error handling is implemented for API requests, which could result in the application breaking if the API is down.
+
